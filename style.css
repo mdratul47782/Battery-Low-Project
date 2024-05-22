@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: normal;
+}
+
+header h1 span {
+    color: hotpink;
+}
+
+header p {
+    font-size: 1em;
+    color: grey;
+}
+
+nav {
+    background-color: #222;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: hotpink;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section {
+    width: 70%;
+}
+
+main aside {
+    width: 28%;
+}
+
+h2 {
+    color: hotpink;
+}
+
+h3 {
+    color: hotpink;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('bullet.png') no-repeat left center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background-color: hotpink;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff69b4;
+}
+
+.search {
+    margin-top: 40px;
+}
+
+.search input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.search button {
+    padding: 10px;
+    background-color: hotpink;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+.search button:hover {
+    background-color: #ff69b4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
